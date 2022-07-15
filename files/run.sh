@@ -12,6 +12,7 @@ EOF
 done
 
 cat > /etc/sysconfig/network/ifcfg-eth0 << EOF
+STARTMODE=auto
 BOOTPROTO='static'
 IPADDR='192.168.1.2/24'
 EOF
